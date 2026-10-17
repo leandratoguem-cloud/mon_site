@@ -1,0 +1,86 @@
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+.carre-contenu ul {
+  margin-top: 30px;
+}
+.carre-contenu,div {
+  text-align: center;
+}
+.a-propos-main {
+  margin: auto;
+}
+caption{
+    caption-side: top;
+}
+table {
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
+td {
+  padding: 80px;
+}
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+h1,
+h2 {
+  text-align: center;
+}
+@media screen and (max-width: 996px){
+  .section-tarifs {
+    display: none;
+  }
+}
+.tarifs {
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+.tarifs h2 {
+    color: #242424;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.tarifs table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.tarifs th {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #8e86b5;
+    color: #242424;
+    font-weight: bold;
+}
+
+.tarifs td {
+    padding: 15px;
+    border: 1px solid #8e86b5;
+    background-color: #1F2039; /* bleu nuit Robbie */
+}
+
+.tarifs td:last-child, 
+.tarifs th:last-child {
+    text-align: center;
+}
